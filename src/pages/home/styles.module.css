@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container_form {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 50px 30px;
+    margin: 60px;
+  }
+  
+  .form input,
+  select {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  
+    border: 0;
+  
+    border: 1px solid #B3B3B3;
+    padding: 0 10px;
+  }
+  
+  .form button {
+    height: 30px;
+    width: 100%;
+    background-color: #B3B3B3;
+    border-radius: 5px;
+  }
+  
+  .container_list {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+
+    background-color: #333333;
+    color: whitesmoke;
+  }
+  
+  .container_title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    padding: 8px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+
+  .btn_trash {
+    width: 50px;
+  }
